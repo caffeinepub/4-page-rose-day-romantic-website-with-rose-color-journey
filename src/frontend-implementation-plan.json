@@ -1,0 +1,23 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Fix final wish addressee text on page 4",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "summary": "Update the page 4 addressed-name line to render exactly \"Dear Urvi ji\" (remove the trailing \"43m\").",
+      "acceptanceCriteria": [
+        "On page 4, the addressed-name text renders exactly as \"Dear Urvi ji\".",
+        "The string \"Dear Urvi ji43m\" no longer appears anywhere in the frontend source for the final wish screen.",
+        "No other page text or navigation behavior changes as part of this update."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/screens/FinalWishScreen.tsx",
+          "operation": "modify",
+          "description": "Change the addressed-name <p> text content from \"Dear Urvi ji43m\" to exactly \"Dear Urvi ji\". Keep all other copy, layout, and navigation unchanged, and do not edit any files under frontend/src/components/ui."
+        }
+      ]
+    }
+  ]
+}

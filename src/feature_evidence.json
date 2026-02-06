@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-on-the-final-wish-screen-page-4-change-the-addressed-name-line-from-dear-urvi-ji43m-to-exactly-dear-urvi-ji-remove-43m",
+      "featureTitle": "On the final wish screen (page 4), change the addressed-name line from \"Dear Urvi ji43m\" to exactly \"Dear Urvi ji\" (remove \"43m\").",
+      "files": [
+        "frontend/src/components/screens/FinalWishScreen.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

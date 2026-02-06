@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component managing 4-screen navigation with step-based state, progress dots, and Previous/Next controls for the Rose Day journey.",
+  "frontend/src/components/ScreenTransition.tsx": "Simple wrapper component that applies fade-slide animation transitions when switching between screens.",
+  "frontend/src/components/RomanticLayout.tsx": "Reusable layout wrapper providing consistent romantic background imagery, gradient overlays, and floating hearts decoration for all screens.",
+  "frontend/src/components/screens/RedRoseScreen.tsx": "First screen displaying red rose hero image with \"Passion\" theme and minimal romantic text.",
+  "frontend/src/components/screens/BlueRoseScreen.tsx": "Second screen displaying blue rose hero image with \"Mystery\" theme and minimal romantic text.",
+  "frontend/src/components/screens/PinkRoseScreen.tsx": "Third screen displaying pink rose hero image with \"Your Favorite\" theme and minimal romantic text.",
+  "frontend/src/components/screens/FinalWishScreen.tsx": "Final screen displaying Rose Day card with the exact greeting \"Happy Rose Day, bacha🌹\" addressed to \"Dear Urvi ji\" with animated hearts.",
+  "frontend/src/index.css": "Global styles with romantic OKLCH color palette (rose/pink tones), fade-slide transition animations, floating hearts background effects, and serif typography.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with romantic color tokens, Playfair Display serif font, custom romantic shadow, and increased border radius for softer aesthetic."
+}

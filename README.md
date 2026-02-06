@@ -1,2 +1,3 @@
-# 4-page-rose-day-romantic-website-with-rose-color-journey
-Exported from Caffeine project: 4-page Rose Day romantic website with rose color journey
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

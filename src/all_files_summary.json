@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods defined.",
+  "feature_evidence.json": "Metadata describing a feature request to change the FinalWishScreen addressed name to 'Dear Urvi ji'.",
+  "frontend-file-summaries.txt": "Prewritten summaries of all frontend files describing screen components and styling configuration.",
+  "frontend/index.css": "Tailwind base and theme variable definitions for light/dark modes with romantic color tokens.",
+  "frontend/index.html": "Basic HTML shell loading the React app into the root element.",
+  "frontend/src/App.tsx": "Main app managing screen navigation, transitions, and progress indicators across four rose-themed pages.",
+  "frontend/src/components/RomanticLayout.tsx": "Layout wrapper adding background image, gradient overlay, animated hearts, and centered content.",
+  "frontend/src/components/screens/BlueRoseScreen.tsx": "Screen showing a blue rose image with 'Mystery' theme text in a styled card.",
+  "frontend/src/components/screens/FinalWishScreen.tsx": "Final screen displaying rose‑day card, greeting 'Happy Rose Day, bacha🌹', and addressed line 'Dear Urvi ji'.",
+  "frontend/src/components/screens/PinkRoseScreen.tsx": "Screen presenting a pink rose image with 'Your Favorite' themed text.",
+  "frontend/src/components/screens/RedRoseScreen.tsx": "Screen presenting a red rose image with 'Passion' themed text.",
+  "frontend/src/components/ScreenTransition.tsx": "Wrapper component applying the screen-transition animation container.",
+  "frontend/src/hooks/useActor.ts": "Hook creating and caching a backend actor tied to Internet Identity, refreshing dependent queries on change.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Authentication hook and provider managing Internet Identity login, stored identities, and status handling.",
+  "frontend/src/index.css": "Sets Tailwind layers and extensive OKLCH CSS variables for light/dark themes, plus custom animations and decorative heart effects.",
+  "frontend/src/main.tsx": "Bootstraps the React app with React Query and Internet Identity provider, rendering the App component.",
+  "frontend/tailwind.config.js": "Configures Tailwind with plugins, theme extensions, OKLCH color tokens, custom fonts, animations, and container settings.",
+  "project_state.json": "Tracks project state, feature requirements, and updates for a 4‑page romantic Rose Day website."
+}

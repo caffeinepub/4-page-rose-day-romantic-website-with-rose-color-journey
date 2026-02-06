@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a simple multi-page romantic website to wish the user's girlfriend on Rose Day, featuring rose-themed visuals and minimal text across four pages; the final page should address her as \"Dear Urvi ji\" (not \"Urvi ji43m\").",
+  "architectural_notes": [
+    "Site consists of 4 simple pages with a consistent love/rose theme and minimal text (more emotion via visuals).",
+    "Final page addressed name should be exactly \"Dear Urvi ji\" (remove any \"ji43m\" suffix)."
+  ],
+  "known_issues": [],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-simple-4-page-frontend-website-experience-single-page-app-with-internal-routing-or-step-based-navigation-with-four-screens-in-this-order-1-red-rose-2-blue-rose-3-pink-rose-favorite-4-final-wish-message-screen",
+      "title": "Create a simple 4-page frontend website experience (single-page app with internal routing or step-based navigation) with four screens in this order: (1) Red Rose, (2) Blue Rose, (3) Pink Rose (favorite), (4) Final wish message screen.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-consistent-romantic-visual-theme-that-connects-all-rose-colors-with-love-using-a-coherent-palette-typography-and-layout-style-across-all-pages-avoid-a-generic-default-look-keep-the-pages-visually-rich-love-romance-imagery-with-minimal-text",
+      "title": "Implement a consistent romantic visual theme that connects all rose colors “with love”, using a coherent palette, typography, and layout style across all pages (avoid a generic default look). Keep the pages visually rich (love/romance imagery) with minimal text.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-simple-navigation-controls-to-move-between-pages-next-previous-with-smooth-transitions-between-pages-e-g-fade-slide-to-maintain-an-emotional-gentle-feel",
+      "title": "Add simple navigation controls to move between pages (Next/Previous), with smooth transitions between pages (e.g., fade/slide) to maintain an emotional, gentle feel.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-page-4-displays-the-rose-day-greeting-exactly-as-happy-rose-day-bacha-and-also-includes-the-nickname-urvi-ji43m-as-the-addressed-name-english-text-preserving-the-nickname-exactly",
+      "title": "Ensure page 4 displays the Rose Day greeting exactly as: \"Happy Rose Day, bacha 🌹\" and also includes the nickname \"Urvi ji43m\" as the addressed name (English text, preserving the nickname exactly).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-required-generated-images-as-static-assets-under-frontend-public-assets-generated-and-render-them-prominently-on-the-matching-pages-no-backend-image-serving",
+      "title": "Add the required generated images as static assets under frontend/public/assets/generated and render them prominently on the matching pages (no backend image serving).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-on-the-final-wish-screen-page-4-change-the-addressed-name-line-from-dear-urvi-ji43m-to-exactly-dear-urvi-ji-remove-43m",
+      "title": "On the final wish screen (page 4), change the addressed-name line from \"Dear Urvi ji43m\" to exactly \"Dear Urvi ji\" (remove \"43m\").",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a 4-page romantic Rose Day website: Page 1 red rose, Page 2 blue rose, Page 3 pink rose (favorite), Page 4 message 'happy rose day bacha🌹', with pages connected by a love theme and using the nickname 'urvi ji43m'.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Update the last page addressed name text: remove \"Dear Urvi ji43m\" and use \"Dear Urvi ji\" instead.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "4-page Rose Day romantic website with rose color journey",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

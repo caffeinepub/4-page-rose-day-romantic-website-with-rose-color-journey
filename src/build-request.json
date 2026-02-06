@@ -1,0 +1,47 @@
+{
+  "kind": "build_request",
+  "title": "Update final page addressee text to 'Dear Urvi ji'",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "On the final wish screen (page 4), change the addressed-name line from \"Dear Urvi ji43m\" to exactly \"Dear Urvi ji\" (remove \"43m\").",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "Last page remove dear urvi ji43m.........and write dear urvi ji"
+        ]
+      },
+      "acceptanceCriteria": [
+        "On page 4, the addressed-name text renders exactly as \"Dear Urvi ji\".",
+        "The string \"Dear Urvi ji43m\" no longer appears anywhere in the frontend source for the final wish screen.",
+        "No other page text or navigation behavior changes as part of this update."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit files under frontend/src/components/ui (compose them only).",
+    "Do not modify any files listed as immutable in SYSTEM_CONTEXT."
+  ],
+  "nonGoals": [
+    "Do not change the main Rose Day greeting text on page 4.",
+    "Do not add new pages, new navigation behavior, or backend changes."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}
